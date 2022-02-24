@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M01_P102
-  m_Shader: {fileID: 4800000, guid: daffef29ce6645544b647289e38635ad, type: 3}
+  m_Shader: {fileID: 4800000, guid: 988c4f6e8f5855349983e3f1bb874548, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
