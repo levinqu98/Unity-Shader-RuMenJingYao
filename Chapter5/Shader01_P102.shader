@@ -8,7 +8,7 @@ Shader "Unity Shaders Book/Chapter5/SimpleShader" {
 			#pragma fragment frag
 			//包含顶点着色器代码的函数命名为vert
             //包含片元着色器代码的函数命名为frag
-
+			
 			float4 vert(float4 v:POSITION) : SV_POSITION //定义顶点输入和输出
 			//顶点着色器的输入数据类型是float4，定义为参数v
 			//把模型的顶点的坐标（POSITION）赋值给v

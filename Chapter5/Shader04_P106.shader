@@ -1,7 +1,7 @@
 // Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
 Shader "Unity Shader Book/Chapter 5/Simple Shader" {
-//如何使用属性
+//5.2.4 如何使用属性
 
 	Properties {
 		_Color ("Color Tint", Color) = (1.0, 1.0, 1.0, 1.0)
@@ -16,7 +16,7 @@ Shader "Unity Shader Book/Chapter 5/Simple Shader" {
 			#pragma fragment frag
 
 			fixed4 _Color;
-			//在CF代码中，我们需要定义一个与属性名称和类型都匹配的变量
+			//在CG代码中，我们需要定义一个与属性名称和类型都匹配的变量
 
 			struct a2v {
 				float4 vertex : POSITION;
